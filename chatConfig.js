@@ -25,7 +25,7 @@ const users = [
     }
 ]
 
-const i = 2;
+const i = 3;
 // chatConfig.js
 export const chatApiKey = users[i].chatApiKey;
 export const chatUserId = users[i].chatUserId;

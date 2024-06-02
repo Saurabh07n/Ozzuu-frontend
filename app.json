@@ -1,10 +1,10 @@
 {
   "expo": {
-    "name": "OzzuuApp",
+    "name": "Ozzuu",
     "slug": "OzzuuApp",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/dolphy.png",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
@@ -16,7 +16,7 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/dolphy.png",
         "backgroundColor": "#ffffff"
       },
       "package": "com.anonymous.OzzuuApp"

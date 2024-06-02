@@ -10,6 +10,7 @@ import { AppProvider } from "./AppContext";
 import { useChatClient } from './useChatClient';
 import { chatApiKey, chatUserId  } from './chatConfig';
 import { useAppContext } from './AppContext';
+import LoginScreen from "./src/components/LoginScreen";
 
 const Stack = createStackNavigator();
 
@@ -80,6 +81,7 @@ const NavigationStack = () => {
     <OverlayProvider>
       <Chat client={chatClient}>
         <Stack.Navigator>
+          <Stack.Screen name="Login" component={LoginScreen} />
           <Stack.Screen name="ChannelListScreen" component={ChannelListScreen} />
           <Stack.Screen name="ChannelScreen" component={ChannelScreen} />
           <Stack.Screen name="ThreadScreen" component={ThreadScreen} />
