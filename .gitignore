@@ -8,6 +8,8 @@ node_modules/
 dist/
 web-build/
 
+.idea/
+
 # Native
 *.orig.*
 *.jks
@@ -29,7 +31,11 @@ yarn-error.*
 *.pem
 
 # local env files
-.env*.local
+.env
 
-# typescript
+# typescript  sdk.dir=C:\Users\Acer\AppData\Local\Android\Sdk
 *.tsbuildinfo
+
+# android
+android/
+

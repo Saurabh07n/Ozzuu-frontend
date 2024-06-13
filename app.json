@@ -19,7 +19,8 @@
         "foregroundImage": "./assets/dolphy.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.anonymous.OzzuuApp"
+      "googleServicesFile": "./google-services.json",
+      "package": "com.pandu.OzzuuApp"
     },
     "web": {
       "favicon": "./assets/favicon.png"

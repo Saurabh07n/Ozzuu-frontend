@@ -1,9 +1,8 @@
 {
   "name": "ozzuu",
   "version": "1.0.0",
-  "main": "expo/AppEntry.js",
   "scripts": {
-    "start": "expo start",
+    "start": "expo start --dev-client",
     "android": "expo run:android",
     "ios": "expo run:ios",
     "web": "expo start --web"
@@ -13,6 +12,9 @@
     "@expo/vector-icons": "^14.0.2",
     "@gorhom/bottom-sheet": "^4.6.1",
     "@react-native-community/netinfo": "11.3.1",
+    "@react-native-firebase/app": "^20.1.0",
+    "@react-native-firebase/crashlytics": "^20.1.0",
+    "@react-native-firebase/messaging": "^20.1.0",
     "@react-navigation/native": "^6.1.17",
     "@react-navigation/stack": "^6.3.29",
     "@stream-io/flat-list-mvcp": "^0.10.3",
@@ -27,7 +29,7 @@
     "expo-status-bar": "~1.12.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "react-native": "^0.74.1",
+    "react-native": "0.74.2",
     "react-native-fs": "^2.20.0",
     "react-native-gesture-handler": "~2.16.1",
     "react-native-login-screen": "^5.0.0",

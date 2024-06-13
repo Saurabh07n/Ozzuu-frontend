@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "274345998616",
+    "project_id": "ozzuu-1f403",
+    "storage_bucket": "ozzuu-1f403.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:274345998616:android:07a8e920dbcc8282fe866d",
+        "android_client_info": {
+          "package_name": "com.pandu.OzzuuApp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBWQ8m61gERxkog02Zznc-oN4wM_KtXkM8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

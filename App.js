@@ -81,7 +81,7 @@ const NavigationStack = () => {
     <OverlayProvider>
       <Chat client={chatClient}>
         <Stack.Navigator>
-          <Stack.Screen name="Login" component={LoginScreen} />
+          {/* <Stack.Screen name="Login" component={LoginScreen} /> */}
           <Stack.Screen name="ChannelListScreen" component={ChannelListScreen} />
           <Stack.Screen name="ChannelScreen" component={ChannelScreen} />
           <Stack.Screen name="ThreadScreen" component={ThreadScreen} />
